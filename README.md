@@ -117,5 +117,4 @@ Defect tracking screenshots are available in:
 
 
 
-* Trim this into a more concise recruiter-focused version
-* Or upgrade it to look more “SDET Intern” aligned specifically for Flam.
+
