@@ -1,59 +1,133 @@
-🧪 Manual Testing Project – E-commerce Web Application
-📌 Objective
 
-Performed end-to-end manual testing of an e-commerce application covering authentication, product, cart, and checkout workflows.
 
-🔍 Scope of Testing
+# 🧪 Manual Testing Project – E-commerce Web Application
 
-Functional Testing
+## 📌 Project Overview
 
-Negative Testing
+This project demonstrates end-to-end **manual testing** of an e-commerce web application.
+The objective was to validate core business workflows, identify defects, and manage them using industry-standard defect tracking practices.
 
-Boundary Testing
+Website Under Test: [https://automationexercise.com](https://automationexercise.com)
 
-Security Testing (SQL Injection, Weak Password)
+---
 
-Regression Testing
+## 🎯 Objectives
 
-📊 Test Coverage
+* Design structured test scenarios and test cases
+* Perform functional, negative, and boundary testing
+* Identify and classify defects based on severity & priority
+* Log and track defects using Jira
+* Simulate real-world defect lifecycle management
 
-50 detailed test cases
+---
 
-6 high/critical defects identified
+## 🔍 Scope of Testing
 
-Modules tested:
+### Modules Covered
 
-Registration
+* User Registration
+* User Login
+* Product Browsing
+* Cart Management
+* Checkout & Payment
 
-Login
+### Testing Types Performed
 
-Product
+* Functional Testing
+* Negative Testing
+* Boundary Testing
+* Security Testing (SQL Injection, Weak Password Validation)
+* Regression Testing
 
-Cart
+---
 
-Checkout
+## 📊 Test Case Summary
 
-🐞 Defect Management
+* Total Test Cases Designed: **50**
+* High Priority Test Cases: 20+
+* Critical Business Flows Covered:
 
-Defects logged and tracked using Jira.
-Lifecycle followed: Open → In Progress → Done.
+  * Authentication
+  * Cart total validation
+  * Pricing consistency
+  * Payment validation
+  * Session handling
 
-🛠 Tools Used
 
-Jira
 
-Excel
+## 🐞 Defect Summary
 
-Chrome
+* Total Defects Identified: **6**
+* Critical Severity: 2
+* High Severity: 3
+* Medium Severity: 1
 
-Git
+### Sample Critical Defects
 
-💡 Key Learnings
+* SQL Injection login bypass vulnerability
+* Payment processed successfully with expired card
+* Cart total calculation mismatch
 
-Writing structured test cases
+All defects were logged and tracked in **Jira**.
 
-Severity vs Priority classification
+---
 
-Defect lifecycle management
+## 🔄 Defect Lifecycle Followed
 
-Regression suite validation
+Open → In Progress → Resolved → Retested → Closed
+
+Defect tracking screenshots are available in:
+
+```
+/Screenshots
+```
+
+---
+
+## 🛠 Tools & Technologies Used
+
+* Jira (Defect Tracking)
+* Microsoft Excel (Test Case Management)
+* Chrome Browser (Execution Environment)
+* Git & GitHub (Version Control)
+
+---
+
+## 📁 Repository Structure
+
+```
+ecommerce-manual-testing/
+│
+├── Detailed_Ecommerce_Manual_Test_Cases_50.xlsx
+├── Screenshots/
+│     ├── jira_board.png
+│     ├── bug_sql_injection.png
+│     ├── bug_cart_total.png
+│
+└── README.md
+```
+
+---
+
+## 💡 Key Learnings
+
+* Writing structured and traceable test cases
+* Differentiating Severity vs Priority
+* Identifying business-impacting defects
+* Managing defects using Agile workflow
+* Understanding regression suite design
+
+---
+
+## 🚀 Future Enhancements
+
+* Automating regression suite using Selenium
+* API testing using Postman
+* Performance testing for checkout module
+
+---
+
+
+
+* Trim this into a more concise recruiter-focused version
+* Or upgrade it to look more “SDET Intern” aligned specifically for Flam.
