@@ -93,21 +93,9 @@ Defect tracking screenshots are available in:
 
 ---
 
-## 📁 Repository Structure
 
-```
-ecommerce-manual-testing/
-│
-├── Detailed_Ecommerce_Manual_Test_Cases_50.xlsx
-├── Screenshots/
-│     ├── jira_board.png
-│     ├── bug_sql_injection.png
-│     ├── bug_cart_total.png
-│
-└── README.md
-```
 
----
+
 
 ## 💡 Key Learnings
 
